@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>PayloadContent</key>
+	<array>
+		<dict>
+			<key>IPv4</key>
+			<dict>
+				<key>OverridePrimary</key>
+				<integer>1</integer>
+			</dict>
+			<key>PayloadDescription</key>
+			<string>Configures VPN settings</string>
+			<key>PayloadDisplayName</key>
+			<string>VPN</string>
+			<key>PayloadIdentifier</key>
+			<string>com.apple.vpn.managed.840985BD-30C1-44A8-B1FF-CDF73F2A66F4</string>
+			<key>PayloadType</key>
+			<string>com.apple.vpn.managed</string>
+			<key>PayloadUUID</key>
+			<string>CB95D00B-BFA2-4ABB-8EC9-9270EB3C14F6</string>
+			<key>PayloadVersion</key>
+			<real>1</real>
+			<key>Proxies</key>
+			<dict>
+				<key>HTTPEnable</key>
+				<integer>0</integer>
+				<key>HTTPSEnable</key>
+				<integer>0</integer>
+			</dict>
+			<key>UserDefinedName</key>
+			<string>Proton</string>
+			<key>VPN</key>
+			<dict>
+				<key>AuthName</key>
+				<string>none</string>
+				<key>AuthenticationMethod</key>
+				<string>Password</string>
+				<key>RemoteAddress</key>
+				<string>DEFAULT</string>
+			</dict>
+			<key>VPNSubType</key>
+			<string>net.openvpn.OpenVPN-Connect.vpnplugin</string>
+			<key>VPNType</key>
+			<string>VPN</string>
+			<key>VendorConfig</key>
+			<dict>
+				<key>auth</key>
+				<string>sha512</string>
+				<key>auth-user-pass</key>
+				<string>&lt;username&gt;</string>
+				<key>ca</key>
+				<string>-----BEGIN CERTIFICATE-----\nMIIFozCCA4ugAwIBAgIBATANBgkqhkiG9w0BAQ0FADBAMQswCQYDVQQGEwJDSDEV\nMBMGA1UEChMMUHJvdG9uVlBOIEFHMRowGAYDVQQDExFQcm90b25WUE4gUm9vdCBD\nQTAeFw0xNzAyMTUxNDM4MDBaFw0yNzAyMTUxNDM4MDBaMEAxCzAJBgNVBAYTAkNI\nMRUwEwYDVQQKEwxQcm90b25WUE4gQUcxGjAYBgNVBAMTEVByb3RvblZQTiBSb290\nIENBMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAt+BsSsZg7+AuqTq7\nvDbPzfygtl9f8fLJqO4amsyOXlI7pquL5IsEZhpWyJIIvYybqS4s1/T7BbvHPLVE\nwlrq8A5DBIXcfuXrBbKoYkmpICGc2u1KYVGOZ9A+PH9z4Tr6OXFfXRnsbZToie8t\n2Xjv/dZDdUDAqeW89I/mXg3k5x08m2nfGCQDm4gCanN1r5MT7ge56z0MkY3FFGCO\nqRwspIEUzu1ZqGSTkG1eQiOYIrdOF5cc7n2APyvBIcfvp/W3cpTOEmEBJ7/14RnX\nnHo0fcx61Inx/6ZxzKkW8BMdGGQF3tF6u2M0FjVN0lLH9S0ul1TgoOS56yEJ34hr\nJSRTqHuar3t/xdCbKFZjyXFZFNsXVvgJu34CNLrHHTGJj9jiUfFnxWQYMo9UNUd4\na3PPG1HnbG7LAjlvj5JlJ5aqO5gshdnqb9uIQeR2CdzcCJgklwRGCyDT1pm7eoiv\nWV19YBd81vKulLzgPavu3kRRe83yl29It2hwQ9FMs5w6ZV/X6ciTKo3etkX9nBD9\nZzJPsGQsBUy7CzO1jK4W01+u3ItmQS+1s4xtcFxdFY8o/q1zoqBlxpe5MQIWN6Qa\nlryiET74gMHE/S5WrPlsq/gehxsdgc6GDUXG4dk8vn6OUMa6wb5wRO3VXGEc67IY\nm4mDFTYiPvLaFOxtndlUWuCruKcCAwEAAaOBpzCBpDAMBgNVHRMEBTADAQH/MB0G\nA1UdDgQWBBSDkIaYhLVZTwyLNTetNB2qV0gkVDBoBgNVHSMEYTBfgBSDkIaYhLVZ\nTwyLNTetNB2qV0gkVKFEpEIwQDELMAkGA1UEBhMCQ0gxFTATBgNVBAoTDFByb3Rv\nblZQTiBBRzEaMBgGA1UEAxMRUHJvdG9uVlBOIFJvb3QgQ0GCAQEwCwYDVR0PBAQD\nAgEGMA0GCSqGSIb3DQEBDQUAA4ICAQCYr7LpvnfZXBCxVIVc2ea1fjxQ6vkTj0zM\nhtFs3qfeXpMRf+g1NAh4vv1UIwLsczilMt87SjpJ25pZPyS3O+/VlI9ceZMvtGXd\nMGfXhTDp//zRoL1cbzSHee9tQlmEm1tKFxB0wfWd/inGRjZxpJCTQh8oc7CTziHZ\nufS+Jkfpc4Rasr31fl7mHhJahF1j/ka/OOWmFbiHBNjzmNWPQInJm+0ygFqij5qs\n51OEvubR8yh5Mdq4TNuWhFuTxpqoJ87VKaSOx/Aefca44Etwcj4gHb7LThidw/ky\nzysZiWjyrbfX/31RX7QanKiMk2RDtgZaWi/lMfsl5O+6E2lJ1vo4xv9pW8225B5X\neAeXHCfjV/vrrCFqeCprNF6a3Tn/LX6VNy3jbeC+167QagBOaoDA01XPOx7Odhsb\nGd7cJ5VkgyycZgLnT9zrChgwjx59JQosFEG1DsaAgHfpEl/N3YPJh68N7fwN41Cj\nzsk39v6iZdfuet/sP7oiP5/gLmA/CIPNhdIYxaojbLjFPkftVjVPn49RqwqzJJPR\nN8BOyb94yhQ7KO4F3IcLT/y/dsWitY0ZH4lCnAVV/v2YjWAWS3OWyC8BFx/Jmc3W\nDK/yPwECUcPgHIeXiRjHnJt0Zcm23O2Q3RphpU+1SO3XixsXpOVOYP6rJIXW9bMZ\nA1gTTlpi7A==\n-----END CERTIFICATE-----\n</string>
+				<key>comp-lzo</key>
+				<string>adaptive</string>
+				<key>dev</key>
+				<string>tun</string>
+				<key>key-direction</key>
+				<string>1</string>
+				<key>redirect-gateway</key>
+				<string>def1</string>
+				<key>remote-cert-tls</key>
+				<string>server</string>
+				<key>remote.1</key>
+				<string>nl-free-01.protonvpn.com 1194 udp</string>
+				<key>remote.10</key>
+				<string>jp-free-01.protonvpn.com 443 tcp</string>
+				<key>remote.2</key>
+				<string>nl-free-02.protonvpn.com 1194 udp</string>
+				<key>remote.3</key>
+				<string>us-free-01.protonvpn.com 1194 udp</string>
+				<key>remote.4</key>
+				<string>us-free-02.protonvpn.com 1194 udp</string>
+				<key>remote.5</key>
+				<string>jp-free-01.protonvpn.com 1194 udp</string>
+				<key>remote.6</key>
+				<string>nl-free-01.protonvpn.com 443 tcp</string>
+				<key>remote.7</key>
+				<string>nl-free-02.protonvpn.com 443 tcp</string>
+				<key>remote.8</key>
+				<string>us-free-01.protonvpn.com 443 tcp</string>
+				<key>remote.9</key>
+				<string>us-free-02.protonvpn.com 443 tcp</string>
+				<key>tls-auth</key>
+				<string>-----BEGIN OpenVPN Static key V1-----\n6acef03f62675b4b1bbd03e53b187727\n423cea742242106cb2916a8a4c829756\n3d22c7e5cef430b1103c6f66eb1fc5b3\n75a672f158e2e2e936c3faa48b035a6d\ne17beaac23b5f03b10b868d53d03521d\n8ba115059da777a60cbfd7b2c9c57472\n78a15b8f6e68a3ef7fd583ec9f398c8b\nd4735dab40cbd1e3c62a822e97489186\nc30a0b48c7c38ea32ceb056d3fa5a710\ne10ccc7a0ddb363b08c3d2777a3395e1\n0c0b6080f56309192ab5aacd4b45f55d\na61fc77af39bd81a19218a79762c3386\n2df55785075f37d8c71dc8a42097ee43\n344739a0dd48d03025b0450cf1fb5e8c\naeb893d9a96d1f15519bb3c4dcb40ee3\n16672ea16c012664f8a9f11255518deb\n-----END OpenVPN Static key V1-----\n</string>
+				<key>vpn-on-demand</key>
+				<string>0</string>
+			</dict>
+		</dict>
+	</array>
+	<key>PayloadDisplayName</key>
+	<string>Proton VPN</string>
+	<key>PayloadIdentifier</key>
+	<string>openvpn-proton-vpn</string>
+	<key>PayloadRemovalDisallowed</key>
+	<false/>
+	<key>PayloadType</key>
+	<string>Configuration</string>
+	<key>PayloadUUID</key>
+	<string>303186BC-4F3F-4C62-B4B1-21B1CEDAE464</string>
+	<key>PayloadVersion</key>
+	<integer>1</integer>
+</dict>
+</plist>

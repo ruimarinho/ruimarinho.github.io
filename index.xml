@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Rui Marinho</title>
+    <link>https://ruimarinho.github.io/</link>
+    <description>Recent content on Rui Marinho</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>Rui Marinho</copyright>
+    <lastBuildDate>Mon, 22 Apr 2019 01:36:17 +0000</lastBuildDate>
+    
+	<atom:link href="https://ruimarinho.github.io/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>spotify/backstage</title>
+      <link>https://ruimarinho.github.io/post/spotify-backstage/</link>
+      <pubDate>Wed, 22 Apr 2020 00:50:00 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/spotify-backstage/</guid>
+      <description>Spotify has just launched their open source tool for building developer portals. It is one of the most exciting projects I&amp;rsquo;ve seen in a while due to its enormous potential for transforming how other engineering teams work together.
+https://github.com/spotify/backstage
+ To some observers, it may seem odd that a music company is launching a best-in-class developer portal. But if you dig deeper, you’ll find that since the very beginning, Spotify has been known for its agile, autonomous engineering culture.</description>
+    </item>
+    
+    <item>
+      <title>About</title>
+      <link>https://ruimarinho.github.io/about/</link>
+      <pubDate>Mon, 22 Apr 2019 01:36:17 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/about/</guid>
+      <description>I am a software engineer (MSc in Biomedical Engineering) serving as a joint CTO at Uphold, a global fintech, cryptocurrency-native trading platform founded in 2014 with offices all around the world and headquartered in San Francisco, CA. Uphold powers the digital wallet of the popular Brave browser. At Uphold, I contribute to the design, implementation, maintenance and coordination of complex financial systems with a focus on security, performance and scalability.</description>
+    </item>
+    
+    <item>
+      <title>Fixing OpenZWave&#39;s &#34;Failed to load device_classes.xml&#34;</title>
+      <link>https://ruimarinho.github.io/post/fixing-failed-to-load-device-classes-openzwave/</link>
+      <pubDate>Sat, 10 Feb 2018 17:25:00 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/fixing-failed-to-load-device-classes-openzwave/</guid>
+      <description>Have you ever experienced the dreaded &amp;ldquo;Failed to load device_classes.xml&amp;rdquo; error when using OpenZWave?
+While the error message appears to be quite self-explanatory, I always thought I was making some mistake when mapping docker volumes. After all, this happens on the official official Docker image. After some research, it turns out that the official image is missing two important files that allow OpenZWave to correctly configure a new device when it is included by the controller.</description>
+    </item>
+    
+    <item>
+      <title>Quick start guide to flashing ESP8266-based devices with PlatformIO</title>
+      <link>https://ruimarinho.github.io/post/quick-start-guide-to-flashing-esp8266-based-devices-with-platformio/</link>
+      <pubDate>Sat, 13 Jan 2018 11:47:00 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/quick-start-guide-to-flashing-esp8266-based-devices-with-platformio/</guid>
+      <description>If you&amp;rsquo;re into IoT, you&amp;rsquo;ve probably heard of PlatformIO - an integrated development environment for IoT similar to the Arduino IDE.
+A lot of the IoT devices run on the low-cost ESP8266 chip. It can be found on a range of applications, from power meters to switches, sensors and even LED controllers. They are very popular in the DIY community but also commercially available in the form of ready-to-use products and development kits from several manufacturers, such as IteadStudio, makers of the Sonoff product line, Wemos, known for its D1 Mini and MagicHome LED Controllers, to name a few.</description>
+    </item>
+    
+    <item>
+      <title>Detecting MTU sizing issues with OpenVPN on DD-WRT</title>
+      <link>https://ruimarinho.github.io/post/detecting-mtu-sizing-issues-with-openvpn-on-dd-wrt/</link>
+      <pubDate>Sun, 31 Dec 2017 19:27:37 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/detecting-mtu-sizing-issues-with-openvpn-on-dd-wrt/</guid>
+      <description>Choosing the right DD-WRT firmware version for a router has never been an easy task. After the much anticipated v24 stable release got out (v24 SP1, around 9 years ago), the community continued to push for new features, support for different models and improved performance. But when all you had were 54Mbps (802.11g), wireless tuning was crucial. If any build got out with the promise of increased wireless speeds, everyone would upgrade immediately.</description>
+    </item>
+    
+    <item>
+      <title>Send notes and files to your email with Mailo on iOS</title>
+      <link>https://ruimarinho.github.io/post/mailo-ios-send-notes-and-files-to-your-email/</link>
+      <pubDate>Tue, 21 Nov 2017 23:59:00 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/mailo-ios-send-notes-and-files-to-your-email/</guid>
+      <description>Have you ever wanted to send a note to yourself while browsing on your iOS device so that you can keep track of a great article or website? Perhaps you don&amp;rsquo;t have time to read it right away but you have to read it sometime. You&amp;rsquo;ve tried Evernote, Bear and Pocket but you really just want something very simple on your favorite everyday inbox.
+In the past, I would tap the Gmail app icon, set the To to myself and hit send.</description>
+    </item>
+    
+    <item>
+      <title>Portuguese Citizen Card (e-ID) and ROCA</title>
+      <link>https://ruimarinho.github.io/post/portuguese-citizen-card-e-id-and-roca/</link>
+      <pubDate>Tue, 07 Nov 2017 08:18:39 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/portuguese-citizen-card-e-id-and-roca/</guid>
+      <description>A newly discovered vulnerability in generation of RSA keys used by a software library adopted in cryptographic smartcards, security tokens and other secure hardware chips manufactured by Infineon Technologies AG allows for a practical factorization attack, in which the attacker computes the private part of an RSA key. The attack is feasible for commonly used key lengths, including 1024 and 2048 bits, and affects chips manufactured as early as 2012, that are now commonplace.</description>
+    </item>
+    
+    <item>
+      <title>Configuring a secure OpenVPN 2.4 server with Docker</title>
+      <link>https://ruimarinho.github.io/post/configuring-a-secure-openvpn-2-4-server-with-docker/</link>
+      <pubDate>Fri, 22 Sep 2017 22:12:00 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/configuring-a-secure-openvpn-2-4-server-with-docker/</guid>
+      <description>UPDATE (2017-12-31): added instructions for running tls-crypt alongside tls-auth.
+UPDATE (2017-12-31): added instructions on how to dynamically switch between LZO and LZ4 (v2) depending on the OpenVPN client version (2.3 vs 2.4).
+UPDATE (2017-12-02): disabled the block-outside-dns push directive as it is specific to Windows clients.
+UPDATE (2017-11-21): expanded instructions on running a PKI outside the running server container and added some comments from @OpenVPN.
+ I&amp;rsquo;ve been looking to switch to OpenVPN 2.</description>
+    </item>
+    
+    <item>
+      <title>Setup ProtonVPN with auto-login on macOS and iOS</title>
+      <link>https://ruimarinho.github.io/post/how-to-setup-protonvpn-with-auto-login-on-macos-and-ios/</link>
+      <pubDate>Wed, 13 Sep 2017 01:53:01 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/how-to-setup-protonvpn-with-auto-login-on-macos-and-ios/</guid>
+      <description>Proton AG, the company behind the ProtonMail service which protects the life of activists, journalists and other individuals, has has recently launched ProtonVPN, its VPN service. To further cement their role on protecting Internet users from abusive practices, they offer a free tier available to everyone.
+If you don&amp;rsquo;t feel like rolling your own VPN server using OpenVPN or IPsec (e.g. via Algo), then you may want to consider a commercial alternative like this one.</description>
+    </item>
+    
+    <item>
+      <title>Fix TUN/TAP not available on a Synology NAS</title>
+      <link>https://ruimarinho.github.io/post/fix-tun-tap-not-available-on-a-synology-nas/</link>
+      <pubDate>Tue, 05 Sep 2017 18:13:37 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/fix-tun-tap-not-available-on-a-synology-nas/</guid>
+      <description>If you&amp;rsquo;re looking into running OpenVPN on your Synology NAS, you may have come across the following error:
+ERROR: Cannot open TUN/TAP dev /dev/net/tun: No such file or directory (errno=2) Let&amp;rsquo;s try to fix it!
+Check the tun module status Check if you have the tun module installed:
+❯ lsmod | grep tun If the result comes out empty, try installing it:
+❯ insmod /lib/modules/tun.ko If everything went fine, move on to the next test.</description>
+    </item>
+    
+    <item>
+      <title>Automating network location switching on macOS</title>
+      <link>https://ruimarinho.github.io/post/automating-network-location-switching-on-macos/</link>
+      <pubDate>Mon, 29 May 2017 23:49:02 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/automating-network-location-switching-on-macos/</guid>
+      <description>macOS has offered network locations on the Mac ever since OS X v10.6. By default, the Automatic location is selected on all Macs but it&amp;rsquo;s not that intuitive what it really means. In fact, unlike what the name suggests, it&amp;rsquo;s just a setting that makes your Mac search for a network or internet connection on all network interfaces available.
+On a future macOS update, I wish the location feature is connected to the actual geolocation of the Mac so that changing physical locations allows me to trigger specific automations.</description>
+    </item>
+    
+    <item>
+      <title>Hands-on with the YubiKey 4C</title>
+      <link>https://ruimarinho.github.io/post/hands-on-with-the-yubikey-4c/</link>
+      <pubDate>Mon, 13 Feb 2017 00:00:00 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/hands-on-with-the-yubikey-4c/</guid>
+      <description>It may not look like it, but almost two years (April 10, 2015) have passed since Apple&amp;rsquo;s aggressively entered the USB-C family with the launch of its new laptop, the MacBook 12&amp;rdquo;, which had a single USB-C port. A year later, a second generation MacBook was launched with the exact same port layout, confirming Apple&amp;rsquo;s bet on the new USB standard. In the meantime, the market was flooded with a myriad of new laptops and accessories with USB-C compatibility coming from several other reputable brands.</description>
+    </item>
+    
+    <item>
+      <title>Running UniFi Video on a Synology NAS</title>
+      <link>https://ruimarinho.github.io/post/running-unifi-video-on-a-synology-nas/</link>
+      <pubDate>Sun, 22 Jan 2017 19:56:37 +0000</pubDate>
+      
+      <guid>https://ruimarinho.github.io/post/running-unifi-video-on-a-synology-nas/</guid>
+      <description>UPDATE 3 (2017-11-23) added instructions on migrating to custom SSL certificates sing v3.8.1+.
+UPDATE 2 (2017-10-12): ctindel/unifi-video-controller:3.8.1 switches to the less permissive unifi-video user and attempts to chown the directory to that user during boot. Depending on your original mounted volume permissions, you may need an extra tweak on the host OS to ensure the script doesn&amp;rsquo;t fail:
+❯ chown -R 107:109 /volume1/applications/unifi-video ❯ chmod -R 755 /volume1/applications/unifi-video UPDATE 1 (2017-10-10): ctindel/unifi-video-controller:3.</description>
+    </item>
+    
+  </channel>
+</rss>
